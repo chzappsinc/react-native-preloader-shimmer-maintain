@@ -9,21 +9,23 @@ Contact us to upload your edited version to npm!
 
 ---
 
+# Files
+
 ```
 ├── Loaders
 │   ├── GridLoader
-│   │   ├── Alias_Shop_Rms.js
+│   │   ├── Alias_Shop_Rms.js ---> Main Loader
 │   │   └── gridloader.js
 │   ├── PageLoader
-│   │   ├── Page_Loader_Alias.js
-│   │   └── Post_Loader_Alias.js
+│   │   ├── Page_Loader_Alias.js ---> Page Loader
+│   │   └── Post_Loader_Alias.js ---> Post Loader
 │   └── SingleLoader
-│       └── Round.js
+│       └── Round.js  ---> Profile Loader
 ├── .chzapps
-├── .gitignore
-├── colors.js
-├── index.js
-├── MainLoader.js
+├── .gitignore --->  Avoid
+├── colors.js ---> Color 
+├── index.js  ---> All functions are here
+├── MainLoader.js ---> Deleted on Version 1.2.5
 ├── package.json
 └── README.md
 ```
