@@ -1,0 +1,53 @@
+{
+  "name": "react-native-preloader-shimmer",
+  "title": "React Native Preloader Shimmer",
+  "version": "1.2.18",
+  "description": "Create your own animated slider view like facebook , Zomato Stater etc.. also create a preloader before fetching" ,
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "Loaders",
+    ".chzapps",
+    "colors.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chzappsinc/react-native-preloader-shimmer.git",
+    "baseUrl": "https://github.com/chzappsinc/react-native-preloader-shimmer"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-shimmer",
+    "react-native-loader",
+    "loader",
+    "spinner",
+    "facebook-loader",
+    "animated-react-native",
+    "react native loader",
+    "shimmer"
+  ],
+  "author": "Jasim Tk <support@chzapps.com>",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "dependencies": {
+    "react-native-shimmer": "^0.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/chzappsinc/react-native-preloader-shimmer/issues"
+  },
+  "homepage": "https://github.com/chzappsinc/react-native-preloader-shimmer#readme"
+}
