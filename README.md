@@ -5,7 +5,7 @@
 
 Interested in maintain this library ?
 
-[Main Loader](#read-me)
+[Read me](#read-me)
 
 ---
 
@@ -274,4 +274,7 @@ export default App;
 
 Anyone who can maintian this libarary please contact us on support@chzapps.com
 
-Download file : 
+- Easy to maintian 
+- Easy to use
+
+[File Repo](https://github.com/chzappsinc/react-native-preloader-shimmer-maintain)

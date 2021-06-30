@@ -1,8 +1,8 @@
 {
   "name": "react-native-preloader-shimmer",
   "title": "React Native Preloader Shimmer",
-  "version": "1.2.18",
-  "description": "Create your own animated slider view like facebook , Zomato Stater etc.. also create a preloader before fetching" ,
+  "version": "1.2.19",
+  "description": "Create your own animated slider view like facebook , Zomato Stater etc.. also create a preloader before fetching Profile or post or textData" ,
   "main": "index.js",
   "files": [
     "README.md",

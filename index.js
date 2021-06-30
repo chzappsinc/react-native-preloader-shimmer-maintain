@@ -40,6 +40,18 @@ MainLoader.propTypes = {
     containerStyle: ViewPropTypes.style
 }
 
+/**
+ *
+ * Make a Shining loader like facebook before viewing or loading a post
+ *
+ * @see https://github.com/chzappsinc/react-native-preloader-shimmer/
+ *
+ * Credits
+ * @see https://chzapps.com
+ *
+ *
+ */
+
 export const PostLoader = ({
     backgroundColor = '#fff',
     visible = true,
