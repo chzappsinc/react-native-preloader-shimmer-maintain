@@ -35,4 +35,4 @@ https://github.com/chzappsinc/react-native-preloader-shimmer-maintain.git
 
 ```
 - [x] Updated index.js
- 
+- [ ] Adding new file
