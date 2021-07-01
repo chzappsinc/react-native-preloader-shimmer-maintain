@@ -8,6 +8,10 @@
 npm install gh
 npx gh repo clone chzappsinc/react-native-preloader-shimmer-maintain
 
+Direct install
+
+https://github.com/chzappsinc/react-native-preloader-shimmer-maintain.git
+
 ```
 ## Files
 ```
