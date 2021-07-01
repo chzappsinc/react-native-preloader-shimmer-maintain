@@ -52,6 +52,18 @@ MainLoader.propTypes = {
  *
  */
 
+/**
+ *
+ *Make a PostLoader before loading a Post
+ *
+ * @see https://github.com/chzappsinc/react-native-preloader-shimmer/
+ *
+ * Credits
+ * @see https://chzapps.com
+ *
+ *
+ */
+
 export const PostLoader = ({
     backgroundColor = '#fff',
     visible = true,
@@ -64,16 +76,41 @@ export const PostLoader = ({
     )
 }
 
+/**
+ *
+ *Make a pageLoader before loading text
+ *
+ * @see https://github.com/chzappsinc/react-native-preloader-shimmer/
+ *
+ * Credits
+ * @see https://chzapps.com
+ *
+ *
+ */
+
 export const PageLoader = ({
     backgroundColor = '#fff',
     visible = true,
     animSpeed = 100,
-    barStyle = isRequired('react-native-preloader-shimmer : barStyle cannot be empty type : light-content , dark-content')
+    barStyle = isRequired('react-native-preloader-shimmer : barStyle cannot be empty type : light-content , dark-content'),
+    includeProfile = true
 }) => {
     return (
-        visible && <PrePageLoader barStyle={barStyle} animSpeed={animSpeed} backgroundColor={backgroundColor} />
+        visible && <PrePageLoader barStyle={barStyle} animSpeed={animSpeed} backgroundColor={backgroundColor} includeProfile={includeProfile} />
     )
 }
+
+/**
+ *
+ *Make a Profile before loading user profile single
+ *
+ * @see https://github.com/chzappsinc/react-native-preloader-shimmer/
+ *
+ * Credits
+ * @see https://chzapps.com
+ *
+ *
+ */
 
 export const ProfileLoader = ({
     backgroundColor = '#fff',

@@ -33,14 +33,21 @@ const __________PAGE_LOADER_15_I9_CHZAPPS = (props) => {
                         <Shimmer duration={shimmerDur} style={{ height: 200, marginRight: 20, marginLeft: 20 }}>
                             <View style={styles.video} />
                         </Shimmer>
-                        <Shimmer duration={shimmerDur} style={{ width: 250, height: 50, marginLeft: 0, marginBottom: 10, marginTop: 20, alignSelf: 'center', borderRadius: 100 }}>
-                            <View style={styles.Vsmall} />
-                        </Shimmer>
-                        <View style={{ flexDirection: 'row', }}>
-                            <Shimmer duration={shimmerDur} style={{ width: 160, height: 30, marginLeft: 0, marginBottom: 10, marginTop: 5, marginLeft: 10 }}>
-                                <View style={styles.Vsmall} />
-                            </Shimmer>
-                        </View>
+                        {
+                            props.includeProfile && <View>
+                                <Shimmer duration={shimmerDur} style={{ width: 250, height: 50, marginLeft: 0, marginBottom: 10, marginTop: 20, alignSelf: 'center', borderRadius: 100 }}>
+                                    <View style={styles.Vsmall} />
+                                </Shimmer>
+                                <View style={{ flexDirection: 'row', }}>
+                                    <Shimmer duration={shimmerDur} style={{ width: 160, height: 30, marginLeft: 0, marginBottom: 10, marginTop: 5, marginLeft: 10 }}>
+                                        <View style={styles.Vsmall} />
+                                    </Shimmer>
+                                </View>
+                            </View>
+                        }
+                        {
+                            !props.includeProfile && <View style={{ height: 15 }} />
+                        }
                         <View style={{ flexDirection: 'row', }}>
                             <Shimmer duration={shimmerDur} style={{ width: '90%', height: 20, marginBottom: 10, marginTop: 5, marginLeft: 10, marginRight: 5 }}>
                                 <View style={styles.small} />
