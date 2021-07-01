@@ -153,12 +153,14 @@ const App = () => {
 
 export default App;
 ```
+
 | **NAME PROPS**  | **ANDROID**  | **IOS**      | **TYPE**                   |
 | --------------- | ------------ | ------------ | -------------------------- |
 | barStyle        | required     | required     | dark-content light-content |
 | animSpeed       | required     | required     | Number 1 - 1000            |
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
+
 
 # Profile Loader
 
