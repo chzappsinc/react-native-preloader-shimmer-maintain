@@ -28,17 +28,16 @@ export const MainLoader = ({
     visible = true,
     animSpeed = 100,
     barStyle = isRequiredError('barStyle cannot be empty type : light-content , dark-content'),
-    containerStyle
 }) => {
     return (
         visible && <PreLoader backgroundColor={backgroundColor} animSpeed={animSpeed} barStyle={barStyle} />
     )
 }
 
-MainLoader.propTypes = {
-    backgroundColor: PropTypes.string,
-    containerStyle: ViewPropTypes.style
-}
+// MainLoader.propTypes = {
+//     backgroundColor: PropTypes.string,
+//     containerStyle: ViewPropTypes.style
+// }
 
 /**
  *
