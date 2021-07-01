@@ -125,9 +125,13 @@ export default App;
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
 
+
+
+
 # Page Loader
 
-PageLoader         |  PageLoader Dark
+
+PageLoader                 |  PageLoader Dark
 :-------------------------:|:-------------------------:
  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="100" height="200" />
 
