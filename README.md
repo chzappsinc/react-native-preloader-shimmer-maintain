@@ -125,14 +125,9 @@ export default App;
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
 
-
-
-
 # Page Loader
 
-
-
-PageLoader                 |  PageLoader Dark
+PageLoader         |  PageLoader Dark
 :-------------------------:|:-------------------------:
  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="100" height="200" />
 
@@ -151,6 +146,7 @@ const App = () => {
         barStyle={'dark-content'} //----> StatusBar icon Color
         animSpeed={100} //----> Animation Speed default 100
         visible={true} //----> Visibility  true/false
+        includeProfile={true} //---> Hide 2 profile shimmer
         backgroundColor={'white'} />
     </View>
   )
@@ -158,14 +154,13 @@ const App = () => {
 
 export default App;
 ```
-
 | **NAME PROPS**  | **ANDROID**  | **IOS**      | **TYPE**                   |
 | --------------- | ------------ | ------------ | -------------------------- |
+| includeProfile  | not required | not required | true/ false                |
 | barStyle        | required     | required     | dark-content light-content |
 | animSpeed       | required     | required     | Number 1 - 1000            |
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
-
 
 # Profile Loader
 
